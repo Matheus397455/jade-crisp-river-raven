@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:8081",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Açaí do Gordão — Santo Amaro, São Paulo",
+      "hasCanvas": false,
+      "bodyTextLen": 2483,
+      "bodyTextHash": "8606e4c818f2fae1d78aebe3c700aae3f6ead9c08274c29106e4b35c4aff69c6",
+      "bodyTextPrefix": "Açaí do Gordão SANTO AMARO Início Cardápio Sobre Localização Aça",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Açaí do Gordão — Santo Amaro, São Paulo",
+      "hasCanvas": false,
+      "bodyTextLen": 887,
+      "bodyTextHash": "599a4e1fad65e8e2a914b7503047f3eb9f7f7a691d33c0114655373e523997e8",
+      "bodyTextPrefix": "Açaí do Gordão SANTO AMARO Açaí do GORDÃO Santo Amaro · SP Açaí,",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text changed (1827 -> 2483 chars, hash mismatch)"
+  ]
+}
